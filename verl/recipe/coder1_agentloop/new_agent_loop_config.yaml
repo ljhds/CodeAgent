@@ -1,0 +1,4 @@
+- name: coder1_multiturn_agent
+  _target_: recipe.coder1_agentloop.new_generation_agentloop.Coder1MultiTurnAgentLoop
+  max_turns: 4
+  max_obs_length: 1000
